@@ -36,24 +36,20 @@ a.nav-item:hover {
 }
 
 .avatar {
-    height: 200px;
+    height: 150px; 
     border-radius: 50%;
 }
 
 .social-container img {
-    max-width: 100%;
-    max-height: 175px;
+    max-width: 100px; 
+    max-height: 100px; 
     margin-bottom: 15px;
 }
 
 .project-figure {
     margin: 0 auto 1rem auto;
-    max-height: 256px;
-    max-width: 256px;
-}
-
-.project-text {
-    text-align: justify;
+    max-height: 200px; 
+    max-width: 200px;  
 }
 
 .box {
@@ -80,14 +76,5 @@ a.nav-item:hover {
 @media screen and (max-width: 768px) {
     .nav-menu {
         background-color: #063647;
-    }
-    .nav-toggle:hover {
-        background-color: transparent;
-    }
-    .nav-toggle span {
-        background-color: #dfdfdf;
-    }
-    .nav-toggle span:hover {
-        background-color: #fff;
     }
 }
